@@ -1,4 +1,6 @@
 @import url(font-and-colors.css);
+@import "home/menu-css.css";
+@import "component styles/button-style.css";
 body{
     font-size:var(--text-size);
     font-weight: 400;
@@ -7,3 +9,4 @@ body{
     padding: 0;
     width: 100vw;
 }
+
