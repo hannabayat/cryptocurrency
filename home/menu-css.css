@@ -1,0 +1,30 @@
+.menu{
+    height: 12vh;
+    width: 100vw;
+    background-color: var(--main-color);
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-areas: "logo buttons";
+    border-bottom: 1px solid #0095eb;
+}
+.logo{
+    grid-area: logo;
+    height: 7vh;
+    align-self: center;
+    margin-left: 2vw;
+}
+.menu--items{
+    grid-area: buttons;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+.menu--items-button{
+    color:var(--third-color) ;
+    background-color: var(--main-color);
+}
+.menu--items-button:hover{
+    background-color: #1b245b;
+    color: #FFFFFF;
+}
