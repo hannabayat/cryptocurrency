@@ -1,3 +1,3 @@
 # cryptocurrency
 
-first-team for practice HTML5,CSS3
+First Teamwork for practice HTML5,CSS3
